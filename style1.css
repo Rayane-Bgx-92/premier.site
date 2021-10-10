@@ -1,0 +1,72 @@
+code {
+	background: #73bcec;
+	color:#fff;
+    font-size:2rem;
+    font-family:  'Arial' ;
+    text-align: center;
+    border: 2px solid #060bfa;
+    display:block;
+    
+
+}
+
+
+section
+{
+
+float: left;
+width: 30%;
+height:400px;
+border:2px solid #060bfa; 
+border-radius:6px;
+text-align: center; 
+padding: 24px 5px;
+
+}
+
+
+header, section {
+
+  margin: 0px 1.2% 24px 1.2%;
+
+}
+footer {
+	clear: both;
+}
+
+.p1
+{
+
+color: red;
+
+}
+.p2
+{ 
+
+color: green;
+}
+ .p3
+ {
+
+ color: blue;
+
+ }
+
+ .c1
+ { 
+  
+  background: #00FFFF;
+
+ }
+  .c2
+ { 
+  
+  background: #000080;
+
+ }
+  .c3
+ { 
+  
+  background:#FF00FF; 
+
+ }

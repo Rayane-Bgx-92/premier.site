@@ -1,0 +1,164 @@
+body{
+background-image:url(feu.jpg);
+background-size: 2000px 1000px;
+
+}
+h1{
+padding: 50px;
+	margin: 70px;
+
+text-align: center;
+font-size: 3.2em;
+}
+nav > ul{
+margin: 5px;
+padding: 5px;
+}
+nav li{
+	list-style-type: none;
+}
+nav > ul > li{
+	float: left;
+}
+.submenu{
+	display: none;
+}
+nav input[type=checkbox]{
+	display: none;
+}
+.menu-mobile{
+	display: none;
+}
+nav{
+width: 100%;
+background-color: #black;
+}
+nav > ul > li{
+float: left;
+position: relative;
+}
+nav > ul::after{
+content: "";
+display: table;
+clear: both;
+}
+nav a{
+display: inline-block;
+text-decoration: none;
+}
+nav > ul > li > a{
+padding: 30px 30px;
+color: white;
+}
+nav li:hover .submenu{
+display: inline-block;
+position: absolute;
+top: 100%;
+left: 0px;
+padding: 0px;
+z-index: 100000;
+}
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+padding: 15px 30px;
+font-size: 13px;
+color:grey ;
+width: 270px;
+}
+.menu-html:hover
+{
+	border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px red,
+    inset 0 0 8px red,
+    0 0 16px red,
+    inset 0 0 16px red,
+    0 0 32px red,
+    inset 0 0 32px red; 
+
+}
+.menu-css:hover
+{
+border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px orange,
+    inset 0 0 8px orange,
+    0 0 16px orange,
+    inset 0 0 16px orange,
+    0 0 32px orange,
+    inset 0 0 32px orange; 
+}
+.menu-if:hover
+{
+border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px yellow,
+    inset 0 0 8px yellow,
+    0 0 16px yellow,
+    inset 0 0 16px yellow,
+    0 0 32px yellow,
+    inset 0 0 32px yellow; 
+}
+p {
+
+  text-align: center;
+  font-size: 2.5em;
+}
+img {
+
+	float: right;
+}
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+.menu-html .submenu{
+	border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px red,
+    inset 0 0 8px red,
+    0 0 16px red,
+    inset 0 0 16px red,
+    0 0 32px red,
+    inset 0 0 32px red; 
+}
+.menu-css .submenu{
+	border-top: 5px solid orange;
+   color: orange;
+  box-shadow:
+    0 0 8px orange,
+    inset 0 0 8px orange,
+    0 0 16px orange,
+    inset 0 0 16px orange,
+    0 0 32px orange,
+    inset 0 0 32px orange; 
+}
+.menu-if .submenu{
+	border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px yellow,
+    inset 0 0 8px yellow,
+    0 0 16px yellow,
+    inset 0 0 16px yellow,
+    0 0 32px yellow,
+    inset 0 0 32px yellow; 
+}
+.submenu li:hover a{
+color:#EEE ;
+font-weight: bold;
+}
+.menu-html .submenu li:hover{
+background-color: red;
+}
+.menu-css .submenu li:hover{
+background-color: orange;
+}
+.menu-if .submenu li:hover{
+background-color: darkyellow;
+}

@@ -1,0 +1,28 @@
+div
+{
+	border:3px solid black; 
+	border-radius: 2px;
+	padding-bottom: 4%;
+	padding-left: 1.2%;
+}
+.Entête
+{
+	font-size: 1rem;
+}
+.article1
+{
+	border:2px solid black; 
+	border-radius: 10px;
+	padding-top:1%; 
+    width: 80%;
+	padding-left: 0%;
+	padding-right: 1%;
+	background-color: green;
+}
+.article2{
+
+	background-color: darkred;
+}
+
+
+

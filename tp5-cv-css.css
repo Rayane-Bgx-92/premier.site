@@ -1,0 +1,119 @@
+.PAGE
+{
+width: 800px;
+height: 900px;
+border-radius: 10px;
+box-shadow: 2px 4px 5px black;
+margin: auto;
+font-size: 15px;
+border: solid purple ;
+padding: 2px;
+background-color: orange;
+
+}
+.entete
+{
+border-radius: 2px;
+border: 2px solid darkmagenta;
+width: 680px;
+height: 150px;
+padding: 20px;
+margin: auto;
+}
+.info
+{
+border: solid magenta;
+float: left;
+padding: 7px;
+background-color: magenta;
+
+
+}
+.photo
+{
+float: right;
+
+
+
+}
+.section1
+{
+border-radius: 2px;
+border: 2px solid darkmagenta;
+padding: 20px;
+width: 680px;
+height: 150px;
+margin: auto;
+
+}
+.for
+{
+font-size: 18px;
+border:2px solid darkmagenta 
+}
+.sectionDiv1
+{
+float: right;
+border: 2px solid darkmagenta;
+width: 400px;
+height: 90px;
+
+}
+.sectionDiv2
+{
+float: left;
+border: 2px solid darkmagenta;
+width: 250px;
+}
+
+.exp-pro
+{
+font-size: 18px;
+
+border:2px solid darkmagenta 
+
+}
+.années-exp
+{
+float: left;
+border: 2px solid darkmagenta;
+width: 250px;
+
+}
+.experiences
+{
+float: right;
+border: 2px solid darkmagenta;
+width: 400px;
+
+
+}
+
+
+
+.LANGUES
+{
+float: left;
+border: 2px solid darkmagenta;
+width: 250px;
+
+
+}
+.niveau
+{
+float: right;
+border: 2px solid darkmagenta;
+width: 400px;
+
+
+}
+.année
+{
+float: left;
+border: 2px solid darkmagenta;
+width: 250px;
+}
+.LNG {
+	border:2px solid darkmagenta ;
+}
+
