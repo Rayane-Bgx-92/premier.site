@@ -162,3 +162,26 @@ background-color: orange;
 .menu-if .submenu li:hover{
 background-color: darkyellow;
 }
+.menu-Js:hover
+{
+  border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px white,
+    inset 0 0 8px white,
+    0 0 16px white,
+    inset 0 0 16px white,
+    0 0 32px white,
+    inset 0 0 32px white; 
+}
+.menu-Js .submenu{
+  border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px white,
+    inset 0 0 8px white,
+    0 0 16px white,
+    inset 0 0 16px white,
+    0 0 32px white,
+    inset 0 0 32px white; 
+}
