@@ -1,0 +1,125 @@
+body{
+text-align: center;
+margin: auto;
+}
+
+
+.Bannière{
+float: top;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border: 2px solid black;
+padding: 20px;
+margin: 20px;
+
+}
+.p1{
+	float: center;
+margin-left: 0px;
+margin-right: 4px;
+text-align: center;
+}	
+
+.Menu{
+	float: center;
+	border: 2px solid black;
+	margin-left: 20px;
+	width: 10%;
+	height: 285px;
+	text-align: center;
+}
+.contenu{
+	float: right;
+	border: 2px solid black;
+	width: 80%;
+	margin-right: 20px;
+	height: 500px;
+	margin-top: -285px;
+}
+.Section1{
+
+
+
+
+}
+.Section2{
+
+	float: right;
+	margin-right: 25px;
+	border: 2px solid black;
+	width: 20%;
+	height: 250px;
+}
+.Pied-de-page{
+	margin-top: 350px;
+	float: center;
+	border: 2px solid black;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+nav > ul{
+margin: 5px;
+padding: 5px;
+float: center;
+}
+nav li{
+	list-style-type: none;
+}
+nav > ul > li{
+	float: left;
+}
+nav input[type=checkbox]{
+	display: none;
+}
+nav > ul > li > a{
+padding: 30px 30px;
+color: black;
+}
+nav a{
+display: inline-block;
+text-decoration: none;
+}
+nav > ul::after{
+content: "";
+display: table;
+clear: both;
+}
+nav > ul > li{
+float: left;
+position: relative;
+}
+.submenu li{
+border: 2px solid black;
+box-shadow: 2px 4px 5px black;
+}
+
+.submenu li a{
+color:black;
+}
+.f1{
+	float: left;
+	margin-left: 20px;
+}
+.Sous-menu-projets{
+
+margin-left: 20px;
+}
+.Sous-menu-projets:hover {
+    display: inline-block;
+    border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px red,
+    inset 0 0 8px red,
+    0 0 16px red,
+    inset 0 0 16px red,
+    0 0 32px red,
+    inset 0 0 32px red; 
+
+
+}
+.projets li:hover .Sous-menu-projets  {
+   display:block;
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+var note1 = Number(prompt("donnez une première note"));	
+var note2 = Number(prompt("donnez une deuxième note"));	
+var note3 = Number(prompt("donnez une troisième note"));
+var somme = note1*2+note2*2+note3*3;
+var moyenne = somme/7;
+if (moyenne>=10)
+  document.write("vous ètes admis");
+else
+   document.write("vous ètes redoublant")
+
+document.write("<table border=2>")
+document.write("<td> Voila la somme"+ somme+"<br> </td>");   	
+document.write("<td> Voila la moyenne" + moyenne+ "</td>");   	
+document.write("</table>")   	   	
+
+
+
+</script>
+
+</body>
+</html>
