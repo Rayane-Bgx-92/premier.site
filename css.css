@@ -1,18 +1,21 @@
 body{
-background-image:url(feu.jpg);
+background-image:url(vito.jpg);
 background-size: 2000px 1000px;
 
 }
 h1{
 padding: 50px;
 	margin: 70px;
-
 text-align: center;
 font-size: 3.2em;
+margin-top: 300px;
+color: red;
 }
+
 nav > ul{
 margin: 5px;
 padding: 5px;
+
 }
 nav li{
 	list-style-type: none;
@@ -48,7 +51,7 @@ text-decoration: none;
 }
 nav > ul > li > a{
 padding: 30px 30px;
-color: white;
+color: grey;
 }
 nav li:hover .submenu{
 display: inline-block;
@@ -64,7 +67,7 @@ z-index: 100000;
 .submenu li a{
 padding: 15px 30px;
 font-size: 13px;
-color:grey ;
+color:black ;
 width: 270px;
 }
 .menu-html:hover
@@ -72,12 +75,13 @@ width: 270px;
 	border-top: 5px solid #purple;
    color: #purple;
   box-shadow:
-    0 0 8px red,
-    inset 0 0 8px red,
-    0 0 16px red,
-    inset 0 0 16px red,
-    0 0 32px red,
-    inset 0 0 32px red; 
+     0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred;
+    background-color: darkred; 
 
 }
 .menu-css:hover
@@ -85,34 +89,33 @@ width: 270px;
 border-top: 5px solid #purple;
    color: #purple;
   box-shadow:
-    0 0 8px orange,
-    inset 0 0 8px orange,
-    0 0 16px orange,
-    inset 0 0 16px orange,
-    0 0 32px orange,
-    inset 0 0 32px orange; 
+      0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred;
+    background-color: darkred; 
 }
 .menu-if:hover
 {
 border-top: 5px solid #purple;
    color: #purple;
   box-shadow:
-    0 0 8px yellow,
-    inset 0 0 8px yellow,
-    0 0 16px yellow,
-    inset 0 0 16px yellow,
-    0 0 32px yellow,
-    inset 0 0 32px yellow; 
+     0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred;
+    background-color: darkred; 
 }
 p {
 
   text-align: center;
   font-size: 2.5em;
 }
-img {
 
-	float: right;
-}
 nav > ul > li:hover a{
 	padding: 15px 30px 20px 30px;
 }
@@ -120,68 +123,127 @@ nav > ul > li:hover a{
 	border-top: 5px solid #purple;
    color: #purple;
   box-shadow:
-    0 0 8px red,
-    inset 0 0 8px red,
-    0 0 16px red,
-    inset 0 0 16px red,
-    0 0 32px red,
-    inset 0 0 32px red; 
+    0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred; 
 }
 .menu-css .submenu{
-	border-top: 5px solid orange;
-   color: orange;
+	border-top: 5px solid darkred;
+   color: darkred;
   box-shadow:
-    0 0 8px orange,
-    inset 0 0 8px orange,
-    0 0 16px orange,
-    inset 0 0 16px orange,
-    0 0 32px orange,
-    inset 0 0 32px orange; 
+  0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred; 
 }
 .menu-if .submenu{
 	border-top: 5px solid #purple;
    color: #purple;
   box-shadow:
-    0 0 8px yellow,
-    inset 0 0 8px yellow,
-    0 0 16px yellow,
-    inset 0 0 16px yellow,
-    0 0 32px yellow,
-    inset 0 0 32px yellow; 
+      0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred; 
 }
 .submenu li:hover a{
 color:#EEE ;
 font-weight: bold;
 }
 .menu-html .submenu li:hover{
-background-color: red;
+background-color: darkred;
 }
 .menu-css .submenu li:hover{
-background-color: orange;
+background-color: darkred;
 }
 .menu-if .submenu li:hover{
-background-color: darkyellow;
+background-color: darkred;
 }
 .menu-Js:hover
 {
   border-top: 5px solid #purple;
    color: #purple;
   box-shadow:
-    0 0 8px white,
-    inset 0 0 8px white,
-    0 0 16px white,
-    inset 0 0 16px white,
-    0 0 32px white,
-    inset 0 0 32px white; 
+    0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred;
+    background-color: darkred; 
 }
 .menu-Js .submenu{
   border-top: 5px solid #purple;
    color: #purple;
   box-shadow:
-    0 0 8px white,
-    inset 0 0 8px white,
-    0 0 16px white,
-    inset 0 0 16px white,
-    0 0 32px white,
-    inset 0 0 32px white; 
+    0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred; 
+}
+.menu-Js .submenu li:hover{
+background-color: darkred;
+}
+.menu-Js-exo:hover
+{
+border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred;
+    background-color: darkred; 
+}
+.menu-Js-exo .submenu{
+  border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred; 
+}
+.menu-Js-exo .submenu li:hover{
+background-color: darkred;
+}
+.menu-PPE:hover
+{
+  border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+     0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred;
+    background-color: darkred; 
+
+}
+.menu-PPE .submenu li:hover{
+background-color: darkred;
+}
+.menu-PPE .submenu{
+  border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred; 
 }
