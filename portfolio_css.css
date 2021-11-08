@@ -1,125 +1,241 @@
-body{
+
+h1
+{
+	color: purple;
+	
+}
+
+
+h4
+{
+	color: yellow;
+}
+
+.color
+{
+color: purple;
+width: 100%;
 text-align: center;
-margin: auto;
+padding: 10px;
 }
 
+.fond
 
-.Bannière{
-float: top;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-border: 2px solid black;
-padding: 20px;
-margin: 20px;
+{
+background: url(noir.JPG);
+background-repeat: no-repeat;
+background-size: 100%;
 
 }
-.p1{
-	float: center;
-margin-left: 0px;
-margin-right: 4px;
-text-align: center;
-}	
-
-.Menu{
-	float: center;
-	border: 2px solid black;
-	margin-left: 20px;
-	width: 10%;
-	height: 285px;
-	text-align: center;
+.p1
+{
+	background-color: black;
 }
-.contenu{
-	float: right;
-	border: 2px solid black;
-	width: 80%;
-	margin-right: 20px;
-	height: 500px;
-	margin-top: -285px;
-}
-.Section1{
-
-
-
+.page
+{
+width: 95%;
+height:850px;
+border: 3px solid black;
+font-size: 16px;
+font-family: fantasy;
+padding: 10px;
+box-shadow: 2px 4px 3px black;
 
 }
-.Section2{
 
-	float: right;
-	margin-right: 25px;
-	border: 2px solid black;
-	width: 20%;
-	height: 250px;
-}
-.Pied-de-page{
-	margin-top: 350px;
-	float: center;
-	border: 2px solid black;
-	margin-right: 20px;
-	margin-left: 20px;
-}
-nav > ul{
-margin: 5px;
+.entete
+{
+width: 100%;
+border: 3px solid magenta;
+border-radius: 50px;
+height: 150px;
+margin-right: 50%;
 padding: 5px;
-float: center;
+text-align: center;
 }
-nav li{
-	list-style-type: none;
+
+.form
+{
+border: 3px;
+height: 510px;
+padding: 10px;
 }
-nav > ul > li{
-	float: left;
-}
-nav input[type=checkbox]{
-	display: none;
-}
-nav > ul > li > a{
-padding: 30px 30px;
-color: black;
-}
-nav a{
-display: inline-block;
-text-decoration: none;
-}
-nav > ul::after{
-content: "";
-display: table;
-clear: both;
-}
-nav > ul > li{
+
+.Sec1
+{
 float: left;
-position: relative;
-}
-.submenu li{
-border: 2px solid black;
-box-shadow: 2px 4px 5px black;
+border: 3px solid black;
+width: 390px;
+height: 500px;
 }
 
-.submenu li a{
-color:black;
+.Sec2
+{
+float: right;
+width: 70%;
+border: 1px solid ;
+height: 500px;
+
 }
-.f1{
+
+nav > ul
+{
+margin: -10px;
+padding: -10px;
+}
+
+nav li
+{
+list-style-type: none;
+margin: auto;
+text-align: center;
+}
+
+.submenu
+{
+display: none;
+}
+
+nav > ul >li 
+{
 	float: left;
-	margin-left: 20px;
+	position: relative;
 }
-.Sous-menu-projets{
 
-margin-left: 20px;
+nav > ul::after
+{
+	content: "";
+	display: table;
+	clear: both;
 }
-.Sous-menu-projets:hover {
-    display: inline-block;
-    border-top: 5px solid #purple;
-   color: #purple;
-  box-shadow:
-    0 0 8px red,
-    inset 0 0 8px red,
-    0 0 16px red,
-    inset 0 0 16px red,
-    0 0 32px red,
-    inset 0 0 32px red; 
 
+nav a 
+{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav li:hover .submenu
+{
+	display: inline-block;
+	position: relative;
+	top: 10%;
+	left: 100%;
+	padding: 0px;
+	z-index: 100000;
+	border: 5px solid black;
+	box-shadow: 2px 3px black;
 
 }
-.projets li:hover .Sous-menu-projets  {
-   display:block;
 
+li
+{
+	border: 1px solid black;
+	box-shadow: 2px 3px black;
+	margin: 10px 10px;
+	background-color: #magenta;
+}
+
+.submenu li 
+{
+border-bottom: 3px solid white;
+}
+
+.submenu li a 
+{
+	padding: 15px 30px;
+	font-size: 13px;
+	width: 270px;
+}
+
+.menu-accueil:hover
+{
+	border-top: 5px solid magenta;
+	background-color: white;
+}
+
+.menu-CV:hover
+{
+	border-top: 5px solid magenta;
+	background-color: white;
+}
+
+.menu-projets:hover
+{
+	border-top: 5px solid magenta;
+	background-color: white;
+}
+
+.menu-veilles:hover
+{
+	border-top: 5px solid magenta;
+	background-color: white;
+}
+
+.menu-contact:hover
+{
+	border-top: 5px solid magenta;
+	background-color: white;
+}
+
+nav > ul > li:hover a 
+{
+padding: 15px 30px 20px 30px;
+}
+
+.menu-accueil .submenu
+{
+	background-color: white;
+}
+
+.menu-CV .submenu
+{
+	background-color: white;
+}
+
+.menu-projets .submenu
+{
+	background-color: white;
+}
+
+.menu-veilles .submenu
+{
+	background-color: white;
+}
+
+.menu-contact .submenu
+{
+	background-color: white;
+}
+
+.submenu li:hover a 
+{
+	color: magenta;
+	font-weight: magenta;
+}
+
+
+.menu-accueil .submenu li:hover
+{
+	background-color: white;
+}
+
+.menu-CV .submenu li:hover
+{
+	background-color: white;
+}
+
+.menu-projets .submenu li:hover
+{
+	background-color: white;
+}
+
+.menu-veilles .submenu li:hover
+{
+	background-color: white;
+}
+
+.menu-contact .submenu li:hover
+{
+	background-color: white;
 }
