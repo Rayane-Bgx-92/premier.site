@@ -247,3 +247,59 @@ background-color: darkred;
     0 0 32px darkred,
     inset 0 0 32px darkred; 
 }
+.menu-cr:hover
+{
+  border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+     0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred;
+    background-color: darkred; 
+
+}
+.menu-cr .submenu{
+  border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred; 
+}
+.menu-cr .submenu li:hover{
+background-color: darkred;
+}
+.menu-f2:hover
+{
+  border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+     0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred;
+    background-color: darkred; 
+
+}
+.menu-f2 .submenu{
+  border-top: 5px solid #purple;
+   color: #purple;
+  box-shadow:
+    0 0 8px darkred,
+    inset 0 0 8px darkred,
+    0 0 16px darkred,
+    inset 0 0 16px darkred,
+    0 0 32px darkred,
+    inset 0 0 32px darkred; 
+}
+.menu-f2 .submenu li:hover{
+background-color: darkred;
+}
